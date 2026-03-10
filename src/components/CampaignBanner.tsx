@@ -17,31 +17,31 @@ const CampaignBanner = () => {
         >
           <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
             <Clock className="w-4 h-4 text-gold" />
-            <span className="text-gold font-semibold text-sm">Oferta válida até ao final de 2026</span>
+            <span className="text-gold font-semibold text-sm">Oferta Limitada</span>
           </div>
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-primary-foreground mb-4">
             Poupe até{" "}
-            <span className="text-gradient-gold">40%</span>{" "}
+            <span className="text-gradient-gold">50%</span>{" "}
             na Sua Reputação Online
           </h2>
 
           <p className="text-primary-foreground/70 text-lg mb-8 max-w-xl mx-auto">
-            Campanha especial: 10 meses de serviço por um preço único.
-            Sem renovações automáticas. Resultados garantidos desde a primeira semana.
+            Campanha especial: Google Reviews e Instagram Comentários por preços únicos.
+            Sem renovações automáticas. Resultados garantidos desde o primeiro mês.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <div className="text-center">
-              <span className="block text-primary-foreground/40 text-sm line-through">A partir de 2.000€</span>
-              <span className="block text-4xl font-extrabold text-gradient-gold">1.200€</span>
-              <span className="block text-primary-foreground/60 text-sm">Preço de campanha</span>
+              <span className="block text-primary-foreground/40 text-sm line-through">A partir de 300€/mês</span>
+              <span className="block text-4xl font-extrabold text-gradient-gold">200€/mês</span>
+              <span className="block text-primary-foreground/60 text-sm">Google Reviews</span>
             </div>
-            <ArrowRight className="w-6 h-6 text-gold hidden sm:block" />
+            <div className="text-gold text-2xl font-bold hidden sm:block">+</div>
             <div className="text-center">
-              <span className="block text-primary-foreground/60 text-sm">Apenas</span>
-              <span className="block text-4xl font-extrabold text-primary-foreground">120€</span>
-              <span className="block text-primary-foreground/60 text-sm">por mês</span>
+              <span className="block text-primary-foreground/40 text-sm line-through">A partir de 250€/mês</span>
+              <span className="block text-4xl font-extrabold text-primary-foreground">150€/mês</span>
+              <span className="block text-primary-foreground/60 text-sm">Instagram Comentários</span>
             </div>
           </div>
 
