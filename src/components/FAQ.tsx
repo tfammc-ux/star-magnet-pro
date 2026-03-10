@@ -8,28 +8,28 @@ import {
 
 const faqs = [
   {
-    question: "As reviews e comentários são reais?",
+    question: "As reviews e comentários são de pessoas reais?",
     answer: "Sim, absolutamente. Todas as avaliações no Google e comentários no Instagram são feitos por pessoas reais que interagem genuinamente com o seu negócio. Não utilizamos bots ou reviews falsas, garantindo total conformidade com as políticas das plataformas.",
   },
   {
-    question: "Quanto tempo demora a ver resultados?",
-    answer: "Os resultados começam a ser visíveis logo na primeira semana. Em média, os nossos clientes veem um aumento significativo no ranking do Google e no engagement do Instagram em 4 a 6 semanas.",
-  },
-  {
-    question: "O que acontece depois dos 10 meses?",
-    answer: "Após os 10 meses da campanha, pode renovar ao preço regular ou simplesmente continuar a beneficiar das centenas de reviews e comentários acumulados. Sem obrigações nem renovações automáticas.",
-  },
-  {
-    question: "Funciona para qualquer tipo de negócio?",
-    answer: "Sim! Restaurantes, hotéis, clínicas, lojas, escritórios de serviços — qualquer negócio com presença no Google beneficia de mais avaliações positivas. Para negócios com forte presença visual, os comentários no Instagram são especialmente eficazes.",
-  },
-  {
-    question: "Posso cancelar a qualquer momento?",
-    answer: "O nosso compromisso é de transparência total. Embora o pagamento seja único para os 10 meses (com possibilidade de fracionamento), garantimos resultados desde a primeira semana.",
+    question: "Em quanto tempo vejo os primeiros resultados?",
+    answer: "Os resultados começam a aparecer logo na primeira semana. O seu perfil começa a receber novas avaliações de forma cadenciada para manter a naturalidade e relevância perante os algoritmos das plataformas.",
   },
   {
     question: "Como é feito o pagamento?",
-    answer: "O pagamento pode ser feito por transferência bancária ou MBWay. Oferecemos a possibilidade de fracionamento em até 3 vezes sem juros para a sua conveniência.",
+    answer: "O pagamento pode ser feito por transferência bancária ou MBWay. Os preços indicados são mensais e não incluem IVA à taxa legal em vigor.",
+  },
+  {
+    question: "O que acontece após os packs de campanha?",
+    answer: "Após o período de campanha, pode renovar ao preço regular ou simplesmente continuar a beneficiar das reviews e comentários acumulados. Sem obrigações nem renovações automáticas.",
+  },
+  {
+    question: "Posso cancelar o serviço a qualquer momento?",
+    answer: "O nosso compromisso é de transparência total. Os planos com desconto requerem uma adesão mínima de 3 meses. Após esse período, pode cancelar sem qualquer penalização.",
+  },
+  {
+    question: "Posso combinar Google Reviews com Instagram?",
+    answer: "Sim! Pode subscrever um plano de Google Reviews e adicionar um pack de Instagram Comentários para maximizar a sua presença online em ambas as plataformas. Contacte-nos para um pacote personalizado.",
   },
 ];
 
@@ -47,7 +47,7 @@ const FAQ = () => {
             Perguntas Frequentes
           </h2>
           <p className="text-muted-foreground text-lg">
-            Tudo o que precisa de saber antes de começar
+            Tudo o que precisa de saber para elevar a reputação do seu negócio.
           </p>
         </motion.div>
 
@@ -73,6 +73,15 @@ const FAQ = () => {
             ))}
           </Accordion>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="text-center text-xs text-muted-foreground/60 mt-6"
+        >
+          Aos valores apresentados acresce IVA à taxa legal em vigor.
+        </motion.p>
       </div>
     </section>
   );

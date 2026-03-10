@@ -14,8 +14,8 @@ const steps = [
   },
   {
     icon: Users,
-    title: "Reviews Semanais",
-    description: "Clientes reais deixam avaliações autênticas no seu perfil todas as semanas, de forma consistente.",
+    title: "Reviews Mensais",
+    description: "Pessoas reais deixam avaliações no Google e comentários no Instagram de forma consistente todos os meses.",
   },
   {
     icon: TrendingUp,
