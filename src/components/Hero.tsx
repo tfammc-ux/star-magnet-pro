@@ -43,7 +43,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-gold-light/70 mb-10 max-w-2xl mx-auto"
           >
-            Avaliações reais no Google e TripAdvisor, entregues semanalmente.
+            Avaliações reais no Google e comentários no Instagram, entregues semanalmente.
             Aumente a sua reputação online e atraia mais clientes para o seu negócio.
           </motion.p>
 
