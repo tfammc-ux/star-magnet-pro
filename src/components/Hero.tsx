@@ -86,7 +86,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-1">
               <span>✓</span>
-              <span>Google & TripAdvisor</span>
+              <span>Google & Instagram</span>
             </div>
             <div className="flex items-center gap-1">
               <span>✓</span>

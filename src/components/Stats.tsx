@@ -23,8 +23,8 @@ const stats = [
   {
     icon: Eye,
     value: "+45%",
-    label: "mais visibilidade no Google com avaliações consistentes",
-    source: "Moz Local Search",
+    label: "mais engagement com comentários autênticos no Instagram",
+    source: "Sprout Social",
   },
 ];
 

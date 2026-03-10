@@ -10,7 +10,7 @@ const steps = [
   {
     icon: Shield,
     title: "Configuração",
-    description: "Otimizamos o seu perfil no Google e/ou TripAdvisor para maximizar o impacto das avaliações.",
+    description: "Otimizamos o seu perfil no Google e/ou Instagram para maximizar o impacto das avaliações e comentários.",
   },
   {
     icon: Users,
