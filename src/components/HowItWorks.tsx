@@ -5,22 +5,22 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Contacte-nos",
-    description: "Fale connosco e escolha o plano ideal para o seu negócio. Analisamos o seu perfil gratuitamente.",
+    description: "Entre em contacto connosco para analisarmos o seu negócio e identificarmos as suas necessidades de reputação online.",
   },
   {
     icon: Shield,
-    title: "Configuração",
-    description: "Otimizamos o seu perfil no Google e/ou Instagram para maximizar o impacto das avaliações e comentários.",
+    title: "Escolha o Plano",
+    description: "Selecione o plano ideal para o seu negócio — Google Reviews, Instagram Comentários ou ambos.",
   },
   {
     icon: Users,
-    title: "Reviews Mensais",
-    description: "Pessoas reais deixam avaliações no Google e comentários no Instagram de forma consistente todos os meses.",
+    title: "Efetue o Pagamento",
+    description: "Após a escolha do plano, efetue o pagamento por transferência bancária ou MBWay e comece de imediato.",
   },
   {
     icon: TrendingUp,
-    title: "Mais Clientes",
-    description: "A sua reputação online cresce, o ranking melhora e mais clientes encontram o seu negócio.",
+    title: "Receba Reviews e Comentários",
+    description: "Receba avaliações no Google e comentários no Instagram de forma consistente todos os meses, consoante o plano que aderiu.",
   },
 ];
 
