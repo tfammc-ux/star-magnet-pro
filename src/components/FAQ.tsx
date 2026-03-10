@@ -8,20 +8,20 @@ import {
 
 const faqs = [
   {
-    question: "As reviews são reais?",
-    answer: "Sim, absolutamente. Todas as avaliações são feitas por pessoas reais que interagem genuinamente com o seu negócio. Não utilizamos bots ou reviews falsas, garantindo total conformidade com as políticas do Google e TripAdvisor.",
+    question: "As reviews e comentários são reais?",
+    answer: "Sim, absolutamente. Todas as avaliações no Google e comentários no Instagram são feitos por pessoas reais que interagem genuinamente com o seu negócio. Não utilizamos bots ou reviews falsas, garantindo total conformidade com as políticas das plataformas.",
   },
   {
     question: "Quanto tempo demora a ver resultados?",
-    answer: "Os resultados começam a ser visíveis logo na primeira semana. Em média, os nossos clientes veem um aumento significativo no ranking do Google e no volume de novos clientes em 4 a 6 semanas.",
+    answer: "Os resultados começam a ser visíveis logo na primeira semana. Em média, os nossos clientes veem um aumento significativo no ranking do Google e no engagement do Instagram em 4 a 6 semanas.",
   },
   {
     question: "O que acontece depois dos 10 meses?",
-    answer: "Após os 10 meses da campanha, pode renovar ao preço regular ou simplesmente continuar a beneficiar das centenas de reviews acumuladas. Sem obrigações nem renovações automáticas.",
+    answer: "Após os 10 meses da campanha, pode renovar ao preço regular ou simplesmente continuar a beneficiar das centenas de reviews e comentários acumulados. Sem obrigações nem renovações automáticas.",
   },
   {
     question: "Funciona para qualquer tipo de negócio?",
-    answer: "Sim! Restaurantes, hotéis, clínicas, lojas, escritórios de serviços — qualquer negócio com presença no Google beneficia de mais avaliações positivas. Para negócios de turismo e hotelaria, também gerimos o TripAdvisor.",
+    answer: "Sim! Restaurantes, hotéis, clínicas, lojas, escritórios de serviços — qualquer negócio com presença no Google beneficia de mais avaliações positivas. Para negócios com forte presença visual, os comentários no Instagram são especialmente eficazes.",
   },
   {
     question: "Posso cancelar a qualquer momento?",

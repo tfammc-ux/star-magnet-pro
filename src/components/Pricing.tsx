@@ -43,17 +43,17 @@ const plans = [
   {
     name: "Premium",
     icon: Crown,
-    description: "Google + TripAdvisor — cobertura total",
+    description: "Google + Instagram — cobertura total",
     originalPrice: "5.000€",
     campaignPrice: "3.000€",
     period: "10 meses",
     perMonth: "300€/mês",
-    reviews: "12 reviews/semana",
+    reviews: "12 reviews + comentários/semana",
     featured: false,
     features: [
       "8 avaliações Google por semana",
-      "4 avaliações TripAdvisor por semana",
-      "Reviews 100% reais e orgânicas",
+      "4 comentários Instagram por semana",
+      "Reviews e comentários 100% reais",
       "Gestão completa de reputação",
       "Relatório semanal detalhado",
       "Gestor de conta dedicado",
@@ -82,7 +82,7 @@ const Pricing = () => {
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Preço único por 10 meses. Sem surpresas, sem contratos longos.
-            Comece a receber reviews reais esta semana.
+            Comece a receber reviews reais e comentários esta semana.
           </p>
         </motion.div>
 
@@ -172,7 +172,7 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="text-center text-sm text-muted-foreground mt-8"
         >
-          * A remoção de reviews negativas está sujeita às políticas do Google/TripAdvisor.
+          * A remoção de reviews negativas está sujeita às políticas do Google.
           Pagamento pode ser fracionado.
         </motion.p>
       </div>
