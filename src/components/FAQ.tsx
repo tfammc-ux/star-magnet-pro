@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Posso cancelar o serviço a qualquer momento?",
-    answer: "O nosso compromisso é de transparência total. Os planos com desconto requerem uma adesão mínima de 3 meses. Após esse período, pode cancelar sem qualquer penalização.",
+    answer: "O nosso compromisso é de transparência total. Os planos mensais não têm fidelização nem renovação automática — pode cancelar quando quiser. O plano anual de 12 meses também não renova automaticamente: o compromisso é apenas para o período contratado, pago integralmente no início. Após esse período, fica livre para decidir se pretende continuar ou não.",
   },
   {
     question: "Posso combinar Google Reviews com Instagram?",
