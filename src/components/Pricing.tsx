@@ -39,7 +39,7 @@ const plans = [
   {
     name: "Premium",
     icon: Crown,
-    description: "Google + Instagram — cobertura total",
+    description: "Google — Ultra alcance",
     originalPrice: "500€",
     campaignPrice: "400€",
     period: "/mês",
@@ -58,24 +58,24 @@ const plans = [
 const instagramPlans = [
   {
     name: "Instagram Basic",
-    comments: "20 comentários/mês",
-    price: "150€",
-    originalPrice: "250€",
+    comments: "50 comentários/mês",
+    price: "250€",
+    originalPrice: "500€",
     features: [
-      "20 comentários reais no Instagram",
-      "Comentários relevantes e personalizados",
+      "50 comentários mês reais no Instagram",
+      "Comentários relevantes e em todas as fotos e reels",
       "Aumento de engagement orgânico",
       "Suporte por email e WhatsApp",
     ],
   },
   {
     name: "Instagram Pro",
-    comments: "50 comentários/mês",
-    price: "300€",
-    originalPrice: "450€",
+    comments: "100 comentários/mês",
+    price: "500€",
+    originalPrice: "800€",
     features: [
-      "50 comentários reais no Instagram",
-      "Comentários relevantes e personalizados",
+      "100 comentários reais no Instagram",
+      "Comentários relevantes e em todas as fotos e reels",
       "Aumento de engagement e alcance",
       "Estratégia de hashtags e interação",
       "Suporte prioritário",

@@ -27,20 +27,20 @@ const CampaignBanner = () => {
           </h2>
 
           <p className="text-primary-foreground/70 text-lg mb-8 max-w-xl mx-auto">
-            Campanha especial: Google Reviews e Instagram Comentários por preços únicos.
+            Planos anuais exclusivos de 12 meses com 50% de desconto.
             Sem renovações automáticas. Resultados garantidos desde o primeiro mês.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <div className="text-center">
-              <span className="block text-primary-foreground/40 text-sm line-through">A partir de 300€/mês</span>
-              <span className="block text-4xl font-extrabold text-gradient-gold">200€/mês</span>
+              <span className="block text-primary-foreground/40 text-sm line-through">2.400€/ano</span>
+              <span className="block text-4xl font-extrabold text-gradient-gold">1.200€/ano</span>
               <span className="block text-primary-foreground/60 text-sm">Google Reviews</span>
             </div>
             <div className="text-gold text-2xl font-bold hidden sm:block">+</div>
             <div className="text-center">
-              <span className="block text-primary-foreground/40 text-sm line-through">A partir de 250€/mês</span>
-              <span className="block text-4xl font-extrabold text-primary-foreground">150€/mês</span>
+              <span className="block text-primary-foreground/40 text-sm line-through">6.000€/ano</span>
+              <span className="block text-4xl font-extrabold text-primary-foreground">3.000€/ano</span>
               <span className="block text-primary-foreground/60 text-sm">Instagram Comentários</span>
             </div>
           </div>
