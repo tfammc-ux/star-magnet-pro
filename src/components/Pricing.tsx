@@ -39,7 +39,7 @@ const plans = [
   {
     name: "Premium",
     icon: Crown,
-    description: "Google + Instagram — cobertura total",
+    description: "Google — Ultra alcance",
     originalPrice: "500€",
     campaignPrice: "400€",
     period: "/mês",
