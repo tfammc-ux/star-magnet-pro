@@ -4,27 +4,27 @@ import { TrendingUp, Users, Star, Eye } from "lucide-react";
 const stats = [
   {
     icon: Star,
-    value: "93%",
-    label: "dos consumidores leem reviews online antes de comprar",
-    source: "BrightLocal 2024",
+    value: "54%",
+    label: "Empresas com mais avaliações (do que a média) em todos os sites geram 54% mais receita",
+    source: "Google 2025 Consumer Review Survey",
   },
   {
     icon: TrendingUp,
-    value: "+270%",
-    label: "mais probabilidade de conversão com 5+ reviews",
-    source: "Spiegel Research",
+    value: "+108%",
+    label: "Se as avaliações forem recentes nas ultimas semanas a faturação pode ser 108% maior",
+    source: "Google 2025 Consumer Review Survey",
   },
   {
     icon: Users,
-    value: "88%",
-    label: "confiam em reviews online tanto como recomendações pessoais",
-    source: "BrightLocal",
+    value: "87%",
+    label: "confiam mais em reviews online do que recomendações pessoais",
+    source: "Google 2025 Consumer Review Survey",
   },
   {
     icon: Eye,
-    value: "+45%",
-    label: "mais engagement com comentários autênticos no Instagram",
-    source: "Sprout Social",
+    value: "+105%",
+    label: "Contas de instagram com mais comentários geram mais engagement no Instagram em 105%",
+    source: "Meta 2025 Consumer Review Survey",
   },
 ];
 
