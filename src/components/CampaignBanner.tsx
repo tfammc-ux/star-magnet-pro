@@ -33,16 +33,18 @@ const CampaignBanner = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-            <div className="text-center">
+            <div className="text-center p-4 rounded-xl border border-gold/20 bg-white/5">
               <span className="block text-primary-foreground/40 text-sm line-through">2.400€/ano</span>
               <span className="block text-4xl font-extrabold text-gradient-gold">1.200€/ano</span>
-              <span className="block text-primary-foreground/60 text-sm">Google Reviews (dobro de avaliações)</span>
+              <span className="block text-primary-foreground/60 text-sm mt-1">Google Reviews</span>
+              <span className="block text-xs text-gold mt-1">Dobro de avaliações • Apenas 100€/mês</span>
             </div>
-            <div className="text-gold text-2xl font-bold hidden sm:block">+</div>
-            <div className="text-center">
+            <div className="text-gold/60 text-sm font-medium hidden sm:block px-2">ou</div>
+            <div className="text-center p-4 rounded-xl border border-primary-foreground/20 bg-white/5">
               <span className="block text-primary-foreground/40 text-sm line-through">6.000€/ano</span>
               <span className="block text-4xl font-extrabold text-primary-foreground">3.000€/ano</span>
-              <span className="block text-primary-foreground/60 text-sm">Instagram (100 comentários/mês)</span>
+              <span className="block text-primary-foreground/60 text-sm mt-1">Instagram Comentários</span>
+              <span className="block text-xs text-gold/80 mt-1">100 comentários/mês • Apenas 250€/mês</span>
             </div>
           </div>
 

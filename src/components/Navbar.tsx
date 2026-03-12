@@ -22,9 +22,10 @@ const Navbar = () => {
           <a href="#faq" className="hover:text-gold transition-colors">FAQ</a>
           <a
             href="#precos"
-            className="bg-gradient-gold text-accent-foreground font-semibold px-5 py-2 rounded-lg hover:scale-105 transition-transform"
+            className="inline-flex items-center gap-2 bg-gradient-gold text-accent-foreground font-semibold px-4 py-2 rounded-lg hover:scale-105 transition-transform"
           >
-            Começar Agora
+            <span className="text-xs">🔥</span>
+            <span>Oferta Limitada desde 100€/mês</span>
           </a>
         </nav>
 
@@ -54,9 +55,10 @@ const Navbar = () => {
               <a
                 href="#precos"
                 onClick={() => setOpen(false)}
-                className="bg-gradient-gold text-accent-foreground font-semibold px-5 py-2 rounded-lg text-center"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-accent-foreground font-semibold px-4 py-2 rounded-lg"
               >
-                Começar Agora
+                <span className="text-xs">🔥</span>
+                <span>Oferta Limitada desde 100€/mês</span>
               </a>
             </nav>
           </motion.div>
