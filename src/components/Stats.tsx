@@ -42,7 +42,7 @@ const Stats = () => {
             Os Números Não Mentem
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Reviews positivas são o fator #1 de decisão para novos clientes.
+            Reviews positivas são o fator nº 1 de decisão para novos clientes.
             Veja o impacto comprovado no seu negócio.
           </p>
         </motion.div>
