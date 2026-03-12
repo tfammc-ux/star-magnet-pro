@@ -21,7 +21,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 mb-8"
           >
             <Star className="w-4 h-4 text-gold fill-gold" />
-            <span className="text-sm font-medium text-gold-light">Campanha Especial — Oferta Limitada</span>
+            <span className="text-sm font-medium text-gold-light">Gestão de Reputação Digital</span>
           </motion.div>
 
           {/* Headline */}
