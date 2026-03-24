@@ -3,28 +3,28 @@ import { TrendingUp, Users, Star, Eye } from "lucide-react";
 
 const stats = [
   {
-    icon: Star,
-    value: "54%",
-    label: "Empresas com mais avaliações (do que a média) em todos os sites geram 54% mais receita",
-    source: "Google 2025 Consumer Review Survey",
+    icon: Users,
+    value: "97%",
+    label: "dos consumidores lêem reviews online antes de escolher um negócio local",
+    source: "BrightLocal Local Consumer Review Survey, 2026",
   },
   {
     icon: TrendingUp,
-    value: "+108%",
-    label: "Se as avaliações forem recentes nas ultimas semanas a faturação pode ser 108% maior",
-    source: "Google 2025 Consumer Review Survey",
+    value: "+20%",
+    label: "de aumento de receita por cada 0,5 estrelas a mais no Google Maps",
+    source: "Harvard Business School & SocialPilot, 2025",
   },
   {
-    icon: Users,
-    value: "87%",
-    label: "confiam mais em reviews online do que recomendações pessoais",
-    source: "Google 2025 Consumer Review Survey",
+    icon: Star,
+    value: "88%",
+    label: "dos consumidores confiam nas reviews do Google tanto quanto numa recomendação pessoal",
+    source: "Podium Consumer Reviews Report, 2025",
   },
   {
     icon: Eye,
-    value: "+105%",
-    label: "Contas de instagram com mais comentários geram mais engagement no Instagram em 105%",
-    source: "Meta 2025 Consumer Review Survey",
+    value: "270×",
+    label: "mais probabilidade de venda em negócios com 5 ou mais reviews vs. negócios sem nenhuma",
+    source: "Northwestern University Spiegel Research Center",
   },
 ];
 

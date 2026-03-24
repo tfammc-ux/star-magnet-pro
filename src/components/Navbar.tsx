@@ -15,21 +15,19 @@ const Navbar = () => {
           </span>
         </a>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8 text-sm text-primary-foreground/70">
           <a href="#precos" className="hover:text-gold transition-colors">Planos</a>
           <a href="#como-funciona" className="hover:text-gold transition-colors">Como Funciona</a>
           <a href="#faq" className="hover:text-gold transition-colors">FAQ</a>
           <a
-            href="#precos"
+            href="#oferta"
             className="inline-flex items-center gap-2 bg-gradient-gold text-accent-foreground font-semibold px-4 py-2 rounded-lg hover:scale-105 transition-transform"
           >
             <span className="text-xs">🔥</span>
-            <span>Oferta Limitada desde 100€/mês</span>
+            <span>Oferta Limitada desde 200€/mês</span>
           </a>
         </nav>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-primary-foreground"
@@ -39,7 +37,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile nav */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -53,12 +50,12 @@ const Navbar = () => {
               <a href="#como-funciona" onClick={() => setOpen(false)} className="hover:text-gold transition-colors">Como Funciona</a>
               <a href="#faq" onClick={() => setOpen(false)} className="hover:text-gold transition-colors">FAQ</a>
               <a
-                href="#precos"
+                href="#oferta"
                 onClick={() => setOpen(false)}
                 className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-accent-foreground font-semibold px-4 py-2 rounded-lg"
               >
                 <span className="text-xs">🔥</span>
-                <span>Oferta Limitada desde 100€/mês</span>
+                <span>Oferta Limitada desde 200€/mês</span>
               </a>
             </nav>
           </motion.div>

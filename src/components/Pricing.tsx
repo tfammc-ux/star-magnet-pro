@@ -1,84 +1,59 @@
 import { motion } from "framer-motion";
-import { Check, Star, Zap, Crown, Instagram } from "lucide-react";
+import { Check, Star, Zap, Crown } from "lucide-react";
 
 const plans = [
   {
     name: "Starter",
     icon: Star,
-    description: "Ideal para pequenos negócios que querem começar",
-    originalPrice: "300€",
-    campaignPrice: "200€",
+    description: "Ideal para pequenos negócios que querem começar a construir autoridade no Google",
+    price: "300€",
     period: "/mês",
-    reviews: "20 reviews/mês",
     featured: false,
+    packNote: "Pack 6 meses: 1.200€ — poupa 600€",
+    cta: "Começar Agora",
     features: [
       "40 classificações Google por mês",
-      "20 avaliações Google por mês",
-      "Reviews 100% reais e orgânicas",
+      "20 avaliações escritas Google por mês",
+      "Reviews 100% reais de contas portuguesas",
+      "Linguagem adaptada ao seu setor",
       "Suporte por email e WhatsApp",
-      "Preço de desconto apenas para adesão de 3 meses de subscrição",
     ],
   },
   {
     name: "Profissional",
     icon: Zap,
-    description: "O mais popular — máximo impacto no Google",
-    originalPrice: "500€",
-    campaignPrice: "300€",
+    description: "O mais escolhido — impacto máximo no Google e aceleração do ranking local",
+    price: "500€",
     period: "/mês",
-    reviews: "40 reviews/mês",
     featured: true,
+    packNote: "Pack 6 meses: 2.000€ — poupa 1.000€",
+    cta: "Escolher Profissional",
     features: [
       "80 classificações Google por mês",
-      "40 avaliações Google por mês",
-      "Reviews 100% reais e orgânicas",
-      "Suporte por email e WhatsApp",
-      "Preço de desconto apenas para adesão de 3 meses de subscrição",
+      "40 avaliações escritas Google por mês",
+      "Reviews 100% reais de contas portuguesas",
+      "Linguagem adaptada ao seu setor",
+      "Relatório mensal de progresso",
+      "Suporte prioritário por email e WhatsApp",
     ],
   },
   {
     name: "Premium",
     icon: Crown,
-    description: "Google — Ultra alcance",
-    originalPrice: "750€",
-    campaignPrice: "500€",
+    description: "Para negócios que querem dominar o Google Maps na sua zona e não dar hipótese à concorrência",
+    price: "750€",
     period: "/mês",
-    reviews: "100 reviews/mês",
     featured: false,
+    packNote: "Pack 6 meses: 3.000€ — poupa 1.500€",
+    cta: "Escolher Premium",
     features: [
       "120 classificações Google por mês",
-      "100 avaliações Google por mês",
-      "Reviews 100% reais e orgânicas",
-      "Suporte por email e WhatsApp",
-      "Preço de desconto apenas para adesão de 3 meses de subscrição",
-    ],
-  },
-];
-
-const instagramPlans = [
-  {
-    name: "Instagram Basic",
-    comments: "50 comentários/mês",
-    price: "250€",
-    originalPrice: "500€",
-    features: [
-      "50 comentários mês reais no Instagram",
-      "Comentários relevantes e em todas as fotos e reels",
-      "Aumento de engagement orgânico",
-      "Suporte por email e WhatsApp",
-    ],
-  },
-  {
-    name: "Instagram Pro",
-    comments: "100 comentários/mês",
-    price: "500€",
-    originalPrice: "800€",
-    features: [
-      "100 comentários reais no Instagram",
-      "Comentários relevantes e em todas as fotos e reels",
-      "Aumento de engagement e alcance",
-      "Estratégia de hashtags e interação",
-      "Suporte prioritário",
+      "100 avaliações escritas Google por mês",
+      "Reviews 100% reais de contas portuguesas",
+      "Linguagem adaptada ao seu setor",
+      "Relatório mensal de progresso detalhado",
+      "Gestor de conta dedicado",
+      "Suporte prioritário 7 dias/semana",
     ],
   },
 ];
@@ -87,7 +62,6 @@ const Pricing = () => {
   return (
     <section id="precos" className="py-20 bg-background">
       <div className="container">
-        {/* IVA Notice - Prominent */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -107,29 +81,16 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-destructive/30 bg-destructive/10 px-4 py-1.5 mb-6">
-            <span className="text-sm font-semibold text-destructive">🔥 Oferta de Lançamento — Vagas Limitadas</span>
-          </div>
           <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-4">
-            Escolha o Plano Ideal
+            Escolha o Seu Plano Google Reviews
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Poupe na subscrição mensal. Sem surpresas, sem contratos longos.
-            Comece a receber reviews reais esta semana.
+            Reviews 100% reais de contas portuguesas. Entregues mensalmente.
+            Sem contratos longos.
           </p>
         </motion.div>
 
-        {/* Google Reviews Plans */}
-        <motion.h3
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="text-2xl font-bold text-foreground text-center mb-8"
-        >
-          📍 Google Reviews
-        </motion.h3>
-
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, i) => (
             <motion.div
               key={i}
@@ -162,23 +123,13 @@ const Pricing = () => {
               </div>
 
               <div className="mb-6">
-                <div className={`text-sm line-through ${plan.featured ? "text-primary-foreground/40" : "text-muted-foreground/60"}`}>
-                  {plan.originalPrice}
-                </div>
                 <div className="flex items-baseline gap-1">
                   <span className={`text-4xl font-extrabold ${plan.featured ? "text-gradient-gold" : ""}`}>
-                    {plan.campaignPrice}
+                    {plan.price}
                   </span>
                   <span className={`text-sm ${plan.featured ? "text-primary-foreground/60" : "text-muted-foreground"}`}>
                     {plan.period}
                   </span>
-                </div>
-                <div className={`inline-block mt-3 text-sm font-semibold px-3 py-1 rounded-full ${
-                  plan.featured
-                    ? "bg-gold/20 text-gold"
-                    : "bg-accent/10 text-accent-foreground"
-                }`}>
-                  {plan.reviews}
                 </div>
               </div>
 
@@ -203,74 +154,12 @@ const Pricing = () => {
                     : "bg-primary text-primary-foreground hover:opacity-90"
                 }`}
               >
-                Aproveitar Oferta
+                {plan.cta}
               </a>
-            </motion.div>
-          ))}
-        </div>
 
-        {/* Instagram Comentários */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-8"
-        >
-          <h3 className="text-2xl font-bold text-foreground mb-2">
-            📸 Instagram Comentários
-          </h3>
-          <p className="text-muted-foreground text-base max-w-xl mx-auto">
-            Aumente o engagement do seu Instagram com comentários reais e relevantes. Combine com um plano Google para resultados máximos.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-10">
-          {instagramPlans.map((plan, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.15 }}
-              className="relative rounded-2xl p-8 flex flex-col bg-card text-card-foreground border border-border shadow-card hover:border-gold/40 transition-colors"
-            >
-              <div className="mb-6">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-purple-600 mb-4">
-                  <Instagram className="w-6 h-6 text-white" />
-                </div>
-                <h4 className="text-xl font-bold mb-1">{plan.name}</h4>
-                <div className="inline-block text-sm font-semibold px-3 py-1 rounded-full bg-accent/10 text-accent-foreground">
-                  {plan.comments}
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <div className="text-sm line-through text-muted-foreground/60">
-                  {plan.originalPrice}
-                </div>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-4xl font-extrabold">{plan.price}</span>
-                  <span className="text-sm text-muted-foreground">/mês</span>
-                </div>
-              </div>
-
-              <ul className="space-y-3 mb-8 flex-1">
-                {plan.features.map((feature, j) => (
-                  <li key={j} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 mt-0.5 flex-shrink-0 text-success" />
-                    <span className="text-sm text-muted-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <a
-                href="https://wa.me/351000000000"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full inline-flex items-center justify-center font-bold py-4 rounded-lg text-lg transition-all duration-300 hover:scale-105 bg-primary text-primary-foreground hover:opacity-90"
-              >
-                Aproveitar Oferta
-              </a>
+              <p className={`text-center text-xs mt-3 ${plan.featured ? "text-gold/80" : "text-muted-foreground/60"}`}>
+                {plan.packNote}
+              </p>
             </motion.div>
           ))}
         </div>
@@ -281,7 +170,6 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="text-center text-sm text-muted-foreground mt-8"
         >
-          * O apoio na remoção de reviews negativas segue as diretrizes das plataformas.
           Os preços apresentados não incluem IVA. Pagamento efetuado via Transferência ou MBWay.
         </motion.p>
       </div>

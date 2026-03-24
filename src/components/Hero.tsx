@@ -43,8 +43,9 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-gold-light/70 mb-10 max-w-2xl mx-auto"
           >
-            Avaliações reais no Google e comentários no Instagram, entregues mensalmente.
-            Aumente a sua reputação online e atraia mais clientes para o seu negócio.
+            Avaliações 100% reais no Google, entregues mensalmente.
+            Aumente a sua reputação online, suba no ranking do Google
+            e atraia mais clientes para o seu negócio.
           </motion.p>
 
           {/* CTA */}
@@ -58,7 +59,7 @@ const Hero = () => {
               href="#precos"
               className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-accent-foreground font-bold px-8 py-4 rounded-lg text-lg shadow-gold hover:scale-105 transition-transform duration-300 animate-pulse-gold"
             >
-              Ver Planos — Desde 200€/mês
+              Ver Planos — Desde 300€/mês
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
@@ -86,7 +87,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-1">
               <span>✓</span>
-              <span>Google & Instagram</span>
+              <span>Google Reviews</span>
             </div>
             <div className="flex items-center gap-1">
               <span>✓</span>
