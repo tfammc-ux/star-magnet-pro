@@ -8,28 +8,28 @@ import {
 
 const faqs = [
   {
-    question: "As reviews e comentários são de pessoas reais?",
-    answer: "Sim, absolutamente. Todas as avaliações no Google e comentários no Instagram são feitos por pessoas reais que interagem genuinamente com o seu negócio. Não utilizamos bots ou reviews falsas, garantindo total conformidade com as políticas das plataformas.",
+    question: "As reviews são reais ou podem ser removidas pelo Google?",
+    answer: "Todas as reviews são feitas por perfis reais de utilizadores portugueses com histórico de atividade. Não usamos bots nem contas falsas. Isso reduz significativamente o risco de remoção. Em casos excecionais, substituímos gratuitamente qualquer review removida durante o período de serviço.",
   },
   {
-    question: "Em quanto tempo vejo os primeiros resultados?",
-    answer: "Os resultados começam a aparecer logo na primeira semana. O seu perfil começa a receber novas avaliações de forma cadenciada para manter a naturalidade e relevância perante os algoritmos das plataformas.",
+    question: "Quanto tempo demora a ver resultados?",
+    answer: "A maioria dos clientes começa a notar diferença a partir do 2.º mês. O pico de impacto acontece geralmente entre o 4.º e o 6.º mês, quando o Google consolida a nova autoridade do perfil. Negócios que partem de menos de 30 reviews tendem a ver resultados mais rápidos.",
   },
   {
-    question: "Como é feito o pagamento?",
-    answer: "O pagamento pode ser feito por transferência bancária ou MBWay. Os preços indicados são mensais e não incluem IVA à taxa legal em vigor.",
+    question: "Isto é legal?",
+    answer: "O nosso serviço baseia-se em reviews de pessoas reais que partilham a sua opinião genuína. Trabalhamos dentro dos princípios de marketing de reputação. Não garantimos nem incentivamos avaliações falsas — o que nos diferencia de 90% da concorrência.",
   },
   {
-    question: "O que acontece após os packs de campanha?",
-    answer: "Após o período de campanha, pode renovar ao preço regular ou simplesmente continuar a beneficiar das reviews e comentários acumulados. Sem obrigações nem renovações automáticas.",
+    question: "Tenho de assinar um contrato longo?",
+    answer: "Não. O plano mensal não tem compromisso de longo prazo. O pack de 6 meses é pago de uma vez com desconto mas não tem renovação automática. Você controla sempre.",
   },
   {
-    question: "Posso cancelar o serviço a qualquer momento?",
-    answer: "O nosso compromisso é de transparência total. Os planos mensais não têm fidelização nem renovação automática — pode cancelar quando quiser. O plano anual de 12 meses também não renova automaticamente: o compromisso é apenas para o período contratado, pago integralmente no início. Após esse período, fica livre para decidir se pretende continuar ou não.",
+    question: "As reviews são adaptadas ao meu tipo de negócio?",
+    answer: "Sim. Antes de iniciar o serviço, fazemos um briefing do seu negócio — setor, localização, pontos fortes, serviços principais. As reviews são escritas com linguagem natural e específica para o seu caso, não textos genéricos.",
   },
   {
-    question: "Posso combinar Google Reviews com Instagram?",
-    answer: "Sim! Pode subscrever um plano de Google Reviews e adicionar um pack de Instagram Comentários para maximizar a sua presença online em ambas as plataformas. Contacte-nos para um pacote personalizado.",
+    question: "Qual é a diferença entre 'classificação' e 'avaliação escrita'?",
+    answer: "Uma classificação é apenas a atribuição de estrelas (1 a 5) sem texto. Uma avaliação escrita inclui estrelas e um comentário descritivo. As avaliações escritas têm mais peso no algoritmo do Google e mais impacto na decisão do cliente final.",
   },
 ];
 
@@ -46,9 +46,6 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">
             Perguntas Frequentes
           </h2>
-          <p className="text-muted-foreground text-lg">
-            Tudo o que precisa de saber para elevar a reputação do seu negócio.
-          </p>
         </motion.div>
 
         <motion.div

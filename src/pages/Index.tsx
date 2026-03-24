@@ -1,9 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
-import Pricing from "@/components/Pricing";
 import HowItWorks from "@/components/HowItWorks";
-import CampaignBanner from "@/components/CampaignBanner";
+import WhyRealReviews from "@/components/WhyRealReviews";
+import RealResults from "@/components/RealResults";
+import Timeline from "@/components/Timeline";
+import SpecialOffer from "@/components/SpecialOffer";
+import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
@@ -14,7 +17,10 @@ const Index = () => {
       <Hero />
       <Stats />
       <HowItWorks />
-      <CampaignBanner />
+      <WhyRealReviews />
+      <RealResults />
+      <Timeline />
+      <SpecialOffer />
       <Pricing />
       <FAQ />
       <Footer />

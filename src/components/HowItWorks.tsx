@@ -10,7 +10,7 @@ const steps = [
   {
     icon: Shield,
     title: "Escolha o Plano",
-    description: "Selecione o plano ideal para o seu negócio — Google Reviews, Instagram Comentários ou ambos.",
+    description: "Selecione o plano ideal de Google Reviews para o seu negócio — Starter, Profissional ou Premium.",
   },
   {
     icon: Users,
@@ -19,8 +19,8 @@ const steps = [
   },
   {
     icon: TrendingUp,
-    title: "Receba Reviews e Comentários",
-    description: "Receba avaliações no Google e comentários no Instagram de forma consistente todos os meses, consoante o plano que aderiu.",
+    title: "Receba Reviews",
+    description: "Receba avaliações reais no Google de forma consistente todos os meses, consoante o plano que aderiu.",
   },
 ];
 
@@ -52,7 +52,6 @@ const HowItWorks = () => {
               transition={{ delay: i * 0.15 }}
               className="relative text-center"
             >
-              {/* Connector line */}
               {i < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-gold to-gold/20" />
               )}
